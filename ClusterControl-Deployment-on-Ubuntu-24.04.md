@@ -13,9 +13,9 @@ apt upgrade -y
 ### BƯỚC 1: Download và chạy script để tiến hành cài đặt ClusterControl.
 
 ``` shell
-wget https://severalnines.com/downloads/cmon/install-cc  
-chmod +x install-cc  
-sudo ./install-cc 
+wget https://severalnines.com/downloads/cmon/install-cc
+chmod +x install-cc
+sudo ./install-cc
 ```
 <img width="1321" height="701" alt="Image" src="https://github.com/user-attachments/assets/5b5a95e6-b702-47c4-9998-f2cda4720605" />
 
@@ -29,7 +29,7 @@ sudo ./install-cc
 > cd đến thư mục **_/usr/share/ccmgr_** rồi thay cert và key tương ứng vào file _**server.crt**_ và **_server.key_** sau đó restart service cmon.
 
 ``` shell
-systemctl restart cmon-* 
+systemctl restart cmon-*
 ```
 <img width="1257" height="278" alt="Image" src="https://github.com/user-attachments/assets/41e4c521-c800-41a7-9667-e6b9834e85c6" />
 
