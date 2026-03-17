@@ -7,7 +7,7 @@ apt update -y
 apt upgrade -y
 ```
 
-> Link hướng dẫn cài đặt từ trang chủ ClutserControl: https://docs.severalnines.com/clustercontrol/latest/getting-started/quickstart/
+> Link hướng dẫn cài đặt từ trang chủ ClusterControl: https://docs.severalnines.com/clustercontrol/latest/getting-started/quickstart/
 
 
 ### BƯỚC 1: Download và chạy script để tiến hành cài đặt ClusterControl.
