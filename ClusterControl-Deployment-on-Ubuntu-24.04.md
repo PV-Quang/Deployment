@@ -43,13 +43,11 @@ ssh-keygen -t rsa
 ```
 <img width="1440" height="688" alt="Image" src="https://github.com/user-attachments/assets/10c940dc-663a-4cff-80a2-27fc3d94587a" />
 
-> Copy public key đến file **_/root/.ssh/authorized_keys_** các node DB.
+> Copy public key vào file **_/root/.ssh/authorized_keys_** các node DB.
 
-``` shell
-ssh-copy-id -i ~/.ssh/id_rsa {target_node_IP_address}
-```
 
-<img width="1378" height="357" alt="Image" src="https://github.com/user-attachments/assets/16da4b2b-c55d-4b3b-8d38-7a4cc69d832c" />
+<img width="1893" height="148" alt="image" src="https://github.com/user-attachments/assets/f0cd4821-b948-416d-a9d1-359b0baa0c1b" />
+
 
 --------------
 
